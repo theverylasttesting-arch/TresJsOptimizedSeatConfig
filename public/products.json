@@ -1,0 +1,199 @@
+{
+    "products": [
+        {
+            "id": "amaya",
+            "name": "Asiento Amaya",
+            "model": "/assets/asiento amaya.glb",
+            "environmentId": null,
+            "characteristics": [
+                "Respaldo alto con reclinación.",
+                "Apoyabrazos abatible hacia abajo en el pasillo y fijo junto a la ventana.",
+                "Cojín y respaldo con espuma moldeada de poliuretano de curado en frío, retardante al fuego.",
+                "Reclinación mediante accionamiento mecánico.",
+                "Revestimiento textil de poliéster.",
+                "Base y estructura de acero protegidas con pintura epóxica curada en horno.",
+                "Anclaje adaptable a distintas carrocerías."
+            ],
+            "textureGroups": [
+                {
+                    "id": "upholstery",
+                    "name": "Tela de tapicería",
+                    "materialNames": [
+                        "_TravemPT_Fabric_Tela2Azul",
+                        "_TravemPT_Fabric_Tela2Gris",
+                        "_TravemPT_Fabric_Tela3Azul",
+                        "_TravemPT_Fabric_Tela3Gris",
+                        "_TravemPT_Fabric_Tela4Gris",
+                        "_TravemPT_Fabric_Tela5Gris",
+                        "_TravemPT_Fabric_Tela6Azul"
+                    ],
+                    "materialSettings": {
+                        "enabledByDefault": false,
+                        "debugLabel": "Acabado mate de tela",
+                        "properties": {
+                            "metalness": 0,
+                            "gloss": 0.15,
+                            "glossInvert": false
+                        }
+                    },
+                    "defaultTextureSetId": "tela-3-gris",
+                    "textureSets": [
+                        {
+                            "id": "tela-2-azul",
+                            "name": "Tela 2 Azul",
+                            "maps": {
+                                "baseColor": "/assets/textures/amaya/Tela_2_Azul.jpg",
+                                "normal": "/assets/textures/amaya/_Travem_fabricSG_Normal_OpenGL.jpg",
+                                "orm": "/assets/textures/amaya/_Travem_fabricSG_ORM.jpg"
+                            }
+                        },
+                        {
+                            "id": "tela-2-gris",
+                            "name": "Tela 2 Gris",
+                            "maps": {
+                                "baseColor": "/assets/textures/amaya/Tela_2_Gris.jpg",
+                                "normal": "/assets/textures/amaya/_Travem_fabricSG_Normal_OpenGL.jpg",
+                                "orm": "/assets/textures/amaya/_Travem_fabricSG_ORM.jpg"
+                            }
+                        },
+                        {
+                            "id": "tela-3-azul",
+                            "name": "Tela 3 Azul",
+                            "maps": {
+                                "baseColor": "/assets/textures/amaya/Tela_3_Azul.jpg",
+                                "normal": "/assets/textures/amaya/_Travem_fabricSG_Normal_OpenGL.jpg",
+                                "orm": "/assets/textures/amaya/_Travem_fabricSG_ORM.jpg"
+                            }
+                        },
+                        {
+                            "id": "tela-3-gris",
+                            "name": "Tela 3 Gris",
+                            "maps": {
+                                "baseColor": "/assets/textures/amaya/Tela_3_Gris.jpg",
+                                "normal": "/assets/textures/amaya/_Travem_fabricSG_Normal_OpenGL.jpg",
+                                "orm": "/assets/textures/amaya/_Travem_fabricSG_ORM.jpg"
+                            }
+                        },
+                        {
+                            "id": "tela-4-gris",
+                            "name": "Tela 4 Gris",
+                            "maps": {
+                                "baseColor": "/assets/textures/amaya/Tela_4_Gris.jpg",
+                                "normal": "/assets/textures/amaya/_Travem_fabricSG_Normal_OpenGL.jpg",
+                                "orm": "/assets/textures/amaya/_Travem_fabricSG_ORM.jpg"
+                            }
+                        },
+                        {
+                            "id": "tela-5-gris",
+                            "name": "Tela 5 Gris",
+                            "maps": {
+                                "baseColor": "/assets/textures/amaya/Tela_5_Gris.jpg",
+                                "normal": "/assets/textures/amaya/_Travem_fabricSG_Normal_OpenGL.jpg",
+                                "orm": "/assets/textures/amaya/_Travem_fabricSG_ORM.jpg"
+                            }
+                        },
+                        {
+                            "id": "tela-6-azul",
+                            "name": "Tela 6 Azul",
+                            "maps": {
+                                "baseColor": "/assets/textures/amaya/Tela_6_Azul.jpg",
+                                "normal": "/assets/textures/amaya/_Travem_fabricSG_Normal_OpenGL.jpg",
+                                "orm": "/assets/textures/amaya/_Travem_fabricSG_ORM.jpg"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "materialDefaults": [
+                {
+                    "materialNames": [
+                        "_TravemPT_Plastic6"
+                    ],
+                    "maps": {
+                        "baseColor": "/assets/textures/amaya/_TravemPT_plastic6_baseColor.webp",
+                        "normal": "/assets/textures/amaya/_TravemPT_plastic6_normal.jpg",
+                        "orm": "/assets/textures/amaya/_TravemPT_plastic6_occlusionRoughnessMetallic.jpg"
+                    }
+                },
+                {
+                    "materialNames": [
+                        "_TravemPT_Metal"
+                    ],
+                    "maps": {
+                        "baseColor": "/assets/textures/amaya/_TravemPT_metalSG_baseColor.webp",
+                        "normal": "/assets/textures/amaya/_TravemPT_metalSG_normal.webp",
+                        "orm": "/assets/textures/amaya/_TravemPT_metalSG_occlusionRoughnessMetallic.jpg"
+                    }
+                },
+                {
+                    "materialNames": [
+                        "_TravemPT_Plastic3"
+                    ],
+                    "maps": {
+                        "baseColor": "/assets/textures/amaya/_TravemPT_plastic3_baseColor.webp",
+                        "orm": "/assets/textures/amaya/_TravemPT_plastic3_occlusionRoughnessMetallic.webp"
+                    }
+                },
+                {
+                    "materialNames": [
+                        "_TravemPT_Plastic2"
+                    ],
+                    "maps": {
+                        "baseColor": "/assets/textures/amaya/_TravemPT_plastic2SG_baseColor.webp",
+                        "normal": "/assets/textures/amaya/_TravemPT_plastic2SG_normal.jpg",
+                        "orm": "/assets/textures/amaya/_TravemPT_plastic2SG_occlusionRoughnessMetallic.jpg"
+                    }
+                },
+                {
+                    "materialNames": [
+                        "_TravemPT_Resorte"
+                    ],
+                    "maps": {
+                        "baseColor": "/assets/textures/amaya/_TravemPT_Resorte_baseColor.webp",
+                        "normal": "/assets/textures/amaya/resortMATSG_Normal.jpg",
+                        "orm": "/assets/textures/amaya/resortMATSG_ORM.jpg"
+                    }
+                },
+                {
+                    "materialNames": [
+                        "_TravemPT_Belts"
+                    ],
+                    "maps": {
+                        "baseColor": "/assets/textures/amaya/_TravemPT_BELTSG_baseColor.webp",
+                        "normal": "/assets/textures/amaya/_TravemPT_BELTSG_normal.jpg",
+                        "orm": "/assets/textures/amaya/_TravemPT_BELTSG_occlusionRoughnessMetallic.jpg"
+                    }
+                },
+                {
+                    "materialNames": [
+                        "_TravemPT_Plastic5"
+                    ],
+                    "maps": {
+                        "baseColor": "/assets/textures/amaya/_TravemPT_plastic5_baseColor.webp",
+                        "orm": "/assets/textures/amaya/_TravemPT_plastic5_occlusionRoughnessMetallic.jpg"
+                    }
+                }
+            ],
+            "pivot": {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "transform": {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": 0.1
+            }
+        }
+    ]
+}

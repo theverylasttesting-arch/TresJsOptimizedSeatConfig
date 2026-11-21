@@ -1,0 +1,17 @@
+{
+  "luts": [
+    { "id": "blue-architecture", "name": "Azul arquitectónico", "description": "Enfría la imagen y refuerza los tonos azules.", "file": "BlueArchitecture.cube" },
+    { "id": "blue-hour", "name": "Hora azul", "description": "Añade sombras frías y un ambiente de atardecer.", "file": "BlueHour.cube" },
+    { "id": "cold-chrome", "name": "Cromo frío", "description": "Da un aspecto frío y marcado a los tonos neutros.", "file": "ColdChrome.cube" },
+    { "id": "crisp-autumn", "name": "Otoño intenso", "description": "Realza los ocres y cálidos con más contraste.", "file": "CrispAutumn.cube" },
+    { "id": "dark-and-somber", "name": "Oscuro y sobrio", "description": "Oscurece la imagen y suaviza su saturación.", "file": "DarkAndSomber.cube" },
+    { "id": "hard-boost", "name": "Contraste intenso", "description": "Marca más las diferencias entre luces y sombras.", "file": "HardBoost.cube" },
+    { "id": "long-beach-morning", "name": "Mañana cálida", "description": "Aporta una luz cálida y luminosa.", "file": "LongBeachMorning.cube" },
+    { "id": "lush-green", "name": "Verdes vivos", "description": "Da más presencia a los verdes y amarillos.", "file": "LushGreen.cube" },
+    { "id": "magic-hour", "name": "Hora dorada", "description": "Lleva los tonos hacia una luz dorada de atardecer.", "file": "MagicHour.cube" },
+    { "id": "natural-boost", "name": "Color natural", "description": "Aumenta la viveza manteniendo un balance natural.", "file": "NaturalBoost.cube" },
+    { "id": "orange-and-blue", "name": "Naranja y azul", "description": "Combina sombras frías con tonos cálidos.", "file": "OrangeAndBlue.cube" },
+    { "id": "soft-black-and-white", "name": "Blanco y negro suave", "description": "Pasa a monocromo con contraste moderado.", "file": "SoftBlackAndWhite.cube" },
+    { "id": "waves", "name": "Ondas frías", "description": "Da a la imagen un matiz fresco y azulado.", "file": "Waves.cube" }
+  ]
+}

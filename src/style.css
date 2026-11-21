@@ -1,0 +1,39 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+  font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+  color: #edf8f7;
+  background: #04171b;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --studio-ink: #edf8f7;
+  --studio-muted: #afcfce;
+  --studio-line: #49777b;
+  --studio-accent: #48d9de;
+  --studio-field: rgba(5, 36, 41, 0.78);
+  --studio-glass: rgba(8, 48, 52, 0.72);
+  --studio-glass-edge: rgba(173, 231, 230, 0.5);
+  --studio-elevation: 0 18px 42px rgba(0, 8, 12, 0.42);
+  color-scheme: dark;
+  --studio-radius: 14px;
+}
+* { box-sizing: border-box; }
+* { scrollbar-color: #407b80 #08252b; }
+body { margin: 0; min-width: 320px; font-family: inherit; color: var(--studio-ink); background: #04171b;
+  background-image: radial-gradient(ellipse at 95% 10%, #07525b 0%, transparent 55%), radial-gradient(ellipse at 5% 90%, #07393b 0%, transparent 60%);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+::selection { background: #1d818d; color: #ffffff; }
+:focus-visible { outline: 3px solid var(--studio-accent); outline-offset: 4px; }
+.app { max-width: 1920px; margin: 0 auto; padding: 0 32px 32px; }
+.app-header { min-height: 88px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.app-header h1 { margin: 0; font-size: 1.25rem; line-height: 1.3; font-weight: 650; letter-spacing: -0.025em; }
+.header-caption { color: var(--studio-muted); font-size: 0.8125rem; }
+@media (max-width: 767px) {
+  .app { padding: 0 16px 24px; }
+  .app-header { min-height: 76px; gap: 12px; flex-wrap: wrap; padding: 16px 0; }
+  .app-header h1 { font-size: 1.125rem; }
+  .header-caption { font-size: 0.75rem; }
+}

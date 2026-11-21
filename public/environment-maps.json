@@ -1,0 +1,45 @@
+{
+    "defaultEnvironmentId": "industrial",
+    "environments": [
+        {
+            "id": "industrial",
+            "name": "Industrial",
+            "url": "/assets/industrial_2k.hdr",
+            "skyboxIntensity": 0.8,
+            "lightingSize": 128,
+            "atlasSize": 512,
+            "reflectionSamples": 256,
+            "ambientSamples": 512
+        },
+        {
+            "id": "autoshop",
+            "name": "Taller automotriz",
+            "url": "/assets/autoshop_2k.hdr",
+            "skyboxIntensity": 0.8,
+            "lightingSize": 128,
+            "atlasSize": 512,
+            "reflectionSamples": 256,
+            "ambientSamples": 512
+        },
+        {
+            "id": "hangar",
+            "name": "Hangar",
+            "url": "/assets/small_hangar_2k.hdr",
+            "skyboxIntensity": 0.8,
+            "lightingSize": 128,
+            "atlasSize": 512,
+            "reflectionSamples": 256,
+            "ambientSamples": 512
+        },
+        {
+            "id": "garage",
+            "name": "Taller de autos",
+            "url": "/assets/bus_garage_2k.hdr",
+            "skyboxIntensity": 0.8,
+            "lightingSize": 128,
+            "atlasSize": 512,
+            "reflectionSamples": 256,
+            "ambientSamples": 512
+        }
+    ]
+}
